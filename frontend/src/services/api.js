@@ -1,8 +1,7 @@
 // src/services/api.js
 import axios from "axios";
 
-// ✅ Aquí va la URL del backend Laravel (ajústala si tu backend corre en otro puerto)
-const API_URL = "http://127.0.0.1:8080/api"; 
+const API_URL = "https://alfabetizaci-n-digital.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_URL,
